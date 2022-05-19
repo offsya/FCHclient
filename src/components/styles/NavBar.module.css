@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.exitButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 0px 2px;
+    width: 32px;
+    height: 32px;
+    margin-top: 6px;
+    background: #F0F0F5;
+    border-radius: 50%;
+    border: none;
+}
+.userName{
+    text-decoration: none;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 10px 19px 12px 0px;
+
+}
+.userName:hover{
+    color: black;
+    text-decoration: none;
+    font-weight: 1000;
+}
+.userImg{
+    width: 32px;
+    height: 32px;
+    margin: 6px 11px 0px 0px;
+    border-radius: 50%;
+}
+.vectorImg{
+    width: 12px;
+    height: 10.67px;
+}
+
+.logoName{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    margin-top: 6px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #303030;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 56px;
+    border-bottom: 1px solid #D6DCF0;
+}

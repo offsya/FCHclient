@@ -1,0 +1,39 @@
+.figmaModuleInput{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 10%;
+}
+.inputPlace{
+    outline: none;
+    color: grey;
+    text-align: center;
+    margin-top: 50px;
+    width: 400px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2.5px 9px 0.0001px lightgrey;
+}
+.inputPlaceButton{
+    outline: none;
+    color: grey;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2.5px 9px 0.0001px lightgrey;
+}
+
+.inputPlaceButton:hover{
+    cursor: pointer;
+    font-weight: 500;
+}

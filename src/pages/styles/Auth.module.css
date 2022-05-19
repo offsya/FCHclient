@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Pulp Display';
+  src: url('./fonts/PulpDisplay-Bold.eot');
+  src: local('Pulp Display Bold'), local('PulpDisplay-Bold'),
+  url('./fonts/PulpDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+  url('./fonts/PulpDisplay-Bold.woff2') format('woff2'),
+  url('./fonts/PulpDisplay-Bold.woff') format('woff'),
+  url('./fonts/PulpDisplay-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+.figmaLinkButton{
+  color: white;
+  text-decoration: none;
+  border: none;
+  background: #202125;
+  border-radius: 20px;
+  width: 400px;
+  height: 60px;
+  font-family: 'Pulp Display', sans-serif;
+}
+.figmaModuleLogin{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 10%;
+}
+
+.figmaLog{
+  font-family: 'Pulp Display', sans-serif;
+  font-size: 32px;
+  padding-bottom: 50px;
+  background: linear-gradient(45deg, #4c5add 66%, #685adb 66%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0B2349;
+  display: table;
+}
+
+.siginButton{
+  margin-top: 1%;
+  background: none;
+  border: none;
+  font-size: 14px;
+  color: #202125CC;
+  font-weight: 900;
+  font-family: 'Pulp Display', sans-serif;
+}
+.signinText{
+  font-size: 14px;
+  color: #202125CC;
+  margin-top: 40px;
+}

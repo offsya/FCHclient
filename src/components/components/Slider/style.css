@@ -1,0 +1,48 @@
+  .cd-image-container {
+    position: relative;
+    max-width: 768px;
+    margin: 0em auto;
+  }
+  
+  .cd-resize-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    overflow: hidden;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+  }
+  .cd-resize-img img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    height: 100%;
+    width: auto;
+    max-width: none;
+  }
+  .cd-resize-img .cd-image-label {
+    right: auto;
+    left: 0;
+  }
+  .is-visible .cd-resize-img {
+    width: 50%;
+    animation: cd-bounce-in 0.7s;
+  }
+  
+  @keyframes cd-bounce-in {
+    0% {
+      width: 0;
+    }
+    60% {
+      width: 55%;
+    }
+    100% {
+      width: 50%;
+    }
+  }
+
+  
+  
